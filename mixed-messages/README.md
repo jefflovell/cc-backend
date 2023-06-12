@@ -21,9 +21,9 @@
 
 I have decided to make an English language haiku generator.  The three lines satisfies the requirement of *at least three different pieces of data* and who doesn't love a good haiku?
 
->hai•ku
->noun
->origin: Japanese | haikai no ku --> haiku (light verse)
+>hai•ku  
+>noun  
+>origin: Japanese | haikai no ku --> haiku (light verse)  
 >a Japanese poem of seventeen syllables, in three lines of five, seven, and five, traditionally evoking images of the natural world.
 
 ### Considerations

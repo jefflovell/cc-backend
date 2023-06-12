@@ -41,7 +41,7 @@ There are a few ways I can immediately conceive of to approach this problem:
   - I could build a dictionary of lines and pull from it so that the poems make some amount of sense but this seems time intensive from an authorship standpoint and prone to feeling stale without a very large dictionary.  However this approach would allow me to skip checking the number of syllables
   - For a semi-curatorial approach I could build individual phrases, and do some assembly programmatically, connecting a few phrases together.  This might be the best middle ground.
 
-Regardless of approach, I will need to understand and attempt to handle at least the basic structures of English grammar.  The more effort put into handling nuance the more 'natural' the output will look.  For instance, replacing `a` with `an` if the subject starts with a vowel or adding esses to pluralize words.
+Regardless of approach, I will need to understand and attempt to handle at least the basic structures of English grammar.  The more effort put into handling nuance the more 'natural' the output will look.  For instance, replacing `a` with `an` if the subject starts with a vowel, adding esses to pluralize words, and managing tenses.
 
 #### Data Structures
 

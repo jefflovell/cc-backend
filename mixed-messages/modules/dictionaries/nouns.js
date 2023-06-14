@@ -238,8 +238,6 @@ const plant = [
   ["the peony", 4],
 ];
 
-
-
 const place = [
   ["hills", 1],
   ["a hill", 2],
@@ -353,7 +351,7 @@ const place = [
   ["the canyons", 3],
 ];
 
-const elements = [
+const element = [
   ["air", 1],
   ["the air", 2],
   ["breeze", 1],
@@ -417,3 +415,7 @@ const elements = [
   ["the water", 3],
   ["the waters", 3],
 ];
+
+const testNouns = () => "app_start: module found > nouns.js...";
+
+export { animal, plant, place, element, testNouns};

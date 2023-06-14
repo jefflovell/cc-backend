@@ -60,3 +60,7 @@ const preposition = [
   ["within", 2],
   ["without", 2]
 ];
+
+const testHelpers = () => "app_start: module found > helpers.js...";
+
+export { preposition, testHelpers };

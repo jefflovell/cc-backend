@@ -1,0 +1,12 @@
+{
+  "name": "mixed-messages",
+  "version": "1.0.0",
+  "description": "codecademy mixed-messages project",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jeff Lovell",
+  "license": "ISC",
+  "type": "module"
+}

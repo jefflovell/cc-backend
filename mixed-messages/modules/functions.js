@@ -1,7 +1,3 @@
-/* eslint-disable max-lines-per-function */
-/* eslint-disable max-len */
-/* eslint-disable max-statements */
-
 import { subjectsList, objectsList } from "./dictionaries/nouns.js";
 import { adjectivesList } from "./dictionaries/adjectives.js";
 import { verbsList} from "./dictionaries/verbs.js";

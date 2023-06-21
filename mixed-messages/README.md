@@ -2,6 +2,24 @@
 ## CodeCademy Backend Engineering
 ### Portfolio Project | Fundamentals of Javascript
 
+
+#### v1.0
+1. ensure you have node.js installed globally or in your working directory
+2. clone the repo to a local working directory
+3. run `node app.js`
+4. each invocation of `app.js` will generate a new stochastic haiku
+
+##### Learnings
+*for details about the project plan and goals, see details below*
+
+1. Generating anything programmatically that remotely resembles natural language is a bitch. Silver lining, I now have a better grasp of English grammar than I have had in decades.
+2. Properly setting up modules is trickier than it seems at first glance. ES6's module manager for the browser runtime (ESM) has different syntax from Node's default module manager (CommonJS) when it comes to import statements and it's important to be deliberate about structure.  It gets messy quick.
+3. Modeling the data and selecting the right data structures is well worth the time and effort.
+4. It's extremely to fall into the trap of over-optimizing out of the gate.  It wasn't until I wrote out the program imperatively that I was able to make sense of what could be abstracted into helper functions and what data needed to be passed into and out of those functions.  I spent a significant amount of time refactoring.
+5. Even with all the effort I put toward modularity and extensibility my implementation feels brittle and naive.
+6. Start small and iterate.  I generated large dictionaries of words because it was rather mindless.  I could have saved a lot of debugging and refactoring with an MVP of test cases and then expanding into more complex control flow and larger dictionaries.
+
+#### Assignment
 *For this project, you will build a message generator program. Every time a user runs a program, they should get a new, randomized output. You’re welcome to take the project in a couple of different forms, like an astrology generator, inspirational message, or nonsensical jokes. To make your program truly random, the message that it outputs should be made up of at least three different pieces of data. Take what you know of JavaScript syntax so far to build the program and customize it to your liking.*
 
 #### Project Objectives:

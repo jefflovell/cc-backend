@@ -8,6 +8,20 @@
 2. clone the repo to a local working directory
 3. run `node app.js`
 4. each invocation of `app.js` will generate a new stochastic haiku
+```bash
+================================================================================
+********************************************************************************
+*                                                                              *
+*                          STOCHASTIC HAIKU GENERATOR                          *
+*                                                                              *
+*                            The grey marshes sway                             *
+*                     The spring laughs through the canyon                     *
+*                             The purple sea cries                             *
+*                                                                              *
+*                                                                              *
+********************************************************************************
+================================================================================
+```
 
 #### Learnings
 *for details about the project plan and goals, see details below*

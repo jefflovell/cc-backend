@@ -9,13 +9,13 @@
 3. run `node app.js`
 4. each invocation of `app.js` will generate a new stochastic haiku
 
-##### Learnings
+#### Learnings
 *for details about the project plan and goals, see details below*
 
 1. Generating anything programmatically that remotely resembles natural language is a bitch. Silver lining, I now have a better grasp of English grammar than I have had in decades.
 2. Properly setting up modules is trickier than it seems at first glance. ES6's module manager for the browser runtime (ESM) has different syntax from Node's default module manager (CommonJS) when it comes to import statements and it's important to be deliberate about structure.  It gets messy quick.
-3. Modeling the data and selecting the right data structures is well worth the time and effort.
-4. It's extremely to fall into the trap of over-optimizing out of the gate.  It wasn't until I wrote out the program imperatively that I was able to make sense of what could be abstracted into helper functions and what data needed to be passed into and out of those functions.  I spent a significant amount of time refactoring.
+3. Modeling the data and selecting the right data structures is well worth the time and effort.  I probably should have used objects and generators instead of arrays, I had quite a few copypasta typo errors with my data and I could have easily extended my classes and re-generated the objects as I changed things.
+4. It's extremely easy to fall into the trap of over-optimizing out of the gate.  It wasn't until I wrote out the program imperatively that I was able to make sense of what could be abstracted into helper functions and what data needed to be passed into and out of those functions.  I spent a significant amount of time refactoring.
 5. Even with all the effort I put toward modularity and extensibility my implementation feels brittle and naive.
 6. Start small and iterate.  I generated large dictionaries of words because it was rather mindless.  I could have saved a lot of debugging and refactoring with an MVP of test cases and then expanding into more complex control flow and larger dictionaries.
 

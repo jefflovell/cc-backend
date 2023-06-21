@@ -2,6 +2,7 @@ import { testNouns } from "../dictionaries/nouns.js";
 import { testAdjectives } from "../dictionaries/adjectives.js";
 import { testVerbs } from "../dictionaries/verbs.js";
 import { testHelpers } from "../dictionaries/helpers.js";
+import { testFunctions } from "../functions.js";
 
 
 // check all imported modules for proper pathing
@@ -10,4 +11,11 @@ function startUpTest(...args) {
   console.log("app_start: all modules loaded...");
 }
 
-export { testNouns, testAdjectives, testVerbs, testHelpers, startUpTest };
+export {
+  testNouns,
+  testAdjectives,
+  testVerbs,
+  testHelpers,
+  testFunctions,
+  startUpTest
+};

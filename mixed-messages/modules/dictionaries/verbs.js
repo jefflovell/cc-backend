@@ -1,3 +1,5 @@
+// [ word, syllable count, collection ]
+
 const verbsList = [
   ["cry", 1, "plural"],
   ["cries", 1, "singular"],
@@ -69,7 +71,7 @@ const verbsList = [
   ["killing", 2, "collective"],
   ["wait", 1, "plural"],
   ["waits", 1, "singular"],
-  ["waiting", 2], "collective",
+  ["waiting", 2, "collective"],
   ["bleed", 1, "plural"],
   ["bleeds", 1, "singular"],
   ["bleeding", 2, "collective"],
@@ -78,32 +80,9 @@ const verbsList = [
   ["rising", 2, "collective"]
 ];
 
-const adverbs = [
-  ["slowly", 2],
-  ["quietly", 3],
-  ["fitfully", 3],
-  ["fitful", 2],
-  ["lovingly", 3],
-  ["fiercely", 2],
-  ["soundly", 2],
-  ["enraged", 2],
-  ["lazily", 3],
-  ["cunning", 2],
-  ["silently", 3],
-  ["mournful", 2],
-  ["fast", 1],
-  ["slowly", 2],
-  ["neatly", 2],
-  ["calmly", 2],
-  ["bleakly", 2],
-  ["cruelly", 2],
-  ["deeply", 2],
-  ["boldly", 2],
-  ["cleverly", 3],
-  ["violently", 4],
-  ["knowingly", 3]
-];
-
 const testVerbs = () => "app_start: module found > verbs.js...";
 
-export { verbsList, testVerbs };
+export {
+  verbsList,
+  testVerbs
+};

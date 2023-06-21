@@ -1,3 +1,5 @@
+// [ word, syllable count, collection ]
+
 const animalsList = [
   ["ants", 1, "plural"],
   ["ant", 1, "singular"],
@@ -256,4 +258,8 @@ const objectsList = plantsList.concat(placesList, elementsList);
 
 const testNouns = () => "app_start: module found > nouns.js...";
 
-export { subjectsList, objectsList, testNouns};
+export {
+  subjectsList,
+  objectsList,
+  testNouns
+};

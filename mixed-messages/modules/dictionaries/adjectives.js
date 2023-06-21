@@ -1,4 +1,4 @@
-// [ word, syllable count, plural, use with definite article]
+// [ word, syllable count, collection ]
 
 const adjectivesList = [
   ["stoic", 2, "collective"],
@@ -44,4 +44,7 @@ const adjectivesList = [
 
 const testAdjectives = () => "app_start: module found > adjectives.js...";
 
-export { adjectivesList, testAdjectives };
+export {
+  adjectivesList,
+  testAdjectives
+};

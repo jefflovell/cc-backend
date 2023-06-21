@@ -1,6 +1,6 @@
-// [ word, syllable count, plural, must use with definite article ]
+// [ word, syllable count, collection ]
 
-const prepositionsList = [
+const conjunctionsList = [
   ["about", 2, "collective"],
   ["above", 2, "collective"],
   ["abreast", 2, "collective"],
@@ -61,4 +61,7 @@ const prepositionsList = [
 
 const testHelpers = () => "app_start: module found > helpers.js...";
 
-export { prepositionsList, testHelpers };
+export {
+  conjunctionsList,
+  testHelpers
+};
